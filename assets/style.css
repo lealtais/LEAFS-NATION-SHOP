@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f0f7;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.header nav {
+  margin-bottom: 0.5rem;
+}
+
+.back-arrow {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+.banner {
+  background-image: url('https://media-www.sportchek.ca/category-content/2025/sportchek-jerseys-fan-wear/odp-2025-sportchek-hp-wk18-wodp-feat-cat-nhl-playoffs-3j-v3.png'); /* Caminho da imagem */
+  background-size: cover;       /* Preenche a tela inteira */
+  background-position: center;  /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Não repete a imagem */
+  
+  height: 200px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  margin: 0px;
+}
+
+.title-section h1 {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.subtitle {
+  color: #eee;
+}
+
+.buttons {
+  margin-top: 0.5rem;
+}
+
+button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #eee;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.times h2,
+.section-title h2 {
+  margin-top: 2rem;
+  font-size: 18px;
+
+}
+
+
+.circle-list {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  overflow-x: auto;
+  list-style: none;
+  padding: 0;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  
+}
+
+.circle.active {
+  border: 2px solid red;
+  background-color: white;
+}
+
+#leafs-logo{
+   background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Toronto_Maple_Leafs_2016_logo.svg/800px-Toronto_Maple_Leafs_2016_logo.svg.png'); /* Caminho da imagem */
+  background-size: cover;       /* Preenche a tela inteira */
+  background-position: center;  /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Não repete a imagem */
+  
+}
+
+#flyers-logo{
+   background-image: url('https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515400_10886.png'); /* Caminho da imagem */
+  background-size: cover;       /* Preenche a tela inteira */
+  background-position: center;  /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Não repete a imagem */
+  
+}
+
+
+
+.card-list {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  background-color: #ddd;
+  border-radius: 1rem;
+  padding: 1rem;
+  min-width: 120px;
+  text-align: center;
+}
+
+.card.large {
+  flex: 1;
+  min-width: 200px;
+}
+
+.card.small {
+  width: 60px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.label {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.artist,
+.track-title {
+  margin: 0;
+  font-size: 12px;
+}
