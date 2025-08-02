@@ -45,10 +45,13 @@ body {
 }
 
 .product {
+  
+  
   background: white;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 8px;
   text-align: center;
+  margin: px;
 }
 
 .dropdown {
