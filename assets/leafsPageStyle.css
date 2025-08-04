@@ -25,10 +25,28 @@ body {
 .toolbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
   gap: 1rem;
   padding-bottom: 1rem;
 }
+
+
+#search input {
+  width: 300px;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+#search{
+  border-radius: 10rem;
+  border: none;
+  padding: 0.5rem;
+
+
+}
+
 
 .grid {
   display: grid;
@@ -44,14 +62,15 @@ body {
     vertical-align: middle;
 }
 
+
 .product {
-  
   
   background: white;
   padding: 2rem;
   border-radius: 8px;
   text-align: center;
   margin: px;
+  grid-column: span 2; 
 }
 
 .dropdown {
